@@ -162,7 +162,7 @@ class MnistDataVis:
             if (i == ccount % 3):
                 return c
 
-    def __init__(self, title1=None, title2=None, title3=None, title4=None, title5=None, title6=None, histogram4colornum=None, histogram5colornum=None, dpi=70):
+    def __init__(self, title1=None, title2=None, title3=None, title4=None, title5=None, title6=None, histogram4colornum=None, histogram5colornum=None, dpi=60):
         self._color4 = self.__get_histogram_cyclecolor(histogram4colornum)
         self._color5 = self.__get_histogram_cyclecolor(histogram5colornum)
         fig = plt.figure(figsize=(19.20,10.80), dpi=dpi)
